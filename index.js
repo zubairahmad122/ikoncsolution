@@ -1,4 +1,5 @@
 // Initialize Locomotive Scroll
+gsap.registerPlugin()
 function init() {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector(".main"),
