@@ -456,14 +456,12 @@ a {
 .section4 {
   width: 100%;
   position: relative;
-  overflow: hidden;
 }
 
 .mainsec4 {
   max-width: 1600px;
   margin: 0 auto;
   padding: 100px 0;
-  height: 100%;
   display: flex;
   align-items: center;
   margin: 5rem auto;

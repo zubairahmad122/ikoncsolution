@@ -273,7 +273,7 @@ function section3() {
       trigger: "#section5",
       scrub: 1,
       scroller: ".main",
-      start: "top -10%",
+      start: "top 0%",
       end: "end 100%",
        ease: "power1.inOut"
     }
@@ -288,7 +288,7 @@ function section3() {
       trigger: "#section5",
       scrub: 3,
       scroller: ".main",
-      start: "top -40%",
+      start: "top -10%",
       end: "top 100%",
        ease: "power1.inOut"
     }
@@ -317,7 +317,7 @@ function section4() {
         trigger: "#section4",
         scrub: 2, // Smaller scrub value for smoother animation
         scroller: ".main",
-        start: "top 0%",
+        start: "top 30%",
         end: "end 100%"
       },
       // ease: "power1.inOut" // Add an easing function for smoothness
@@ -341,7 +341,7 @@ function section4() {
       trigger: "#section6",
       scrub: 2,
       scroller: ".main",
-      start: "top -50%",
+      start: "top 0%",
       end: "end 100%",
        ease: "power1.inOut"
     }
@@ -351,7 +351,7 @@ function section4() {
       trigger: "#section6",
       scrub: 1,
       scroller: ".main",
-      start: "top 140%",
+      start: "top 259%",
       end: "bottom 100%"
     }
   })
@@ -395,7 +395,7 @@ scrollTrigger: {
   trigger: "#section7",
   scrub: 4,
   scroller: ".main",
-  start: "top -40%",
+  start: "top 0%",
   end: "end 100%"
 }
 })
@@ -408,7 +408,7 @@ duration:2,
 scrollTrigger: {
   trigger: "#section7",
   scroller: ".main",
-  start: "top -60%",
+  start: "top -40%",
   scrub: 1,
   end: "end 100%"
 }
@@ -422,7 +422,7 @@ stagger:1,
 scrollTrigger: {
   trigger: "#section7",
   scroller: ".main",
-  start: "top -70%",
+  start: "top -100%",
   scrub: 1,
   end: "end 100%"
 }
@@ -446,7 +446,7 @@ opacity: 0,
 scrollTrigger: {
   trigger: "#section7",
   scroller: ".main",
-  start: "top -120%",
+  start: "top -150%",
   scrub: 0.1,
   end: "end 100%"
 }
